@@ -1,0 +1,83 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table, td, th {
+    border-bottom: 2px solid gray;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+    font-size: 15px;
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+    /* color: #304050; */
+}
+
+thead {
+    background-color: dodgerblue;
+    color: white !important;
+}
+
+tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+td span {
+    padding:0 2px;
+    width: 10px;
+    height: 10px;
+    color: white;
+    background-color: #196e23;
+    border-radius: 2px;
+}
+
+span svg {
+    width: 15px;
+    height: 15px;
+}
+
+input {
+    border: none;
+    font-size: 12px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #196e23;
+    border-radius: 5px;
+}
+
+caption {
+    margin-bottom: 10px ;
+}
+
+.cancel td span {
+    padding:0 2px;
+    width: 10px;
+    height: 10px;
+    color: white;
+    background-color: #c82813;
+    border-radius: 2px;
+}
+
+.cancel span svg {
+    width: 15px;
+    height: 15px;
+}
+
+.cancel input {
+    border: none;
+    font-size: 12px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #c82813;
+    border-radius: 5px;
+}
