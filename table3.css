@@ -1,0 +1,36 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+caption {
+    background-color: rgb(235, 183, 11);
+    color: white;
+    width: 50%;
+    padding: 10px;
+    margin: 20px auto 10px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    border-top: 1px solid lightgray;
+    padding: 10px;
+    font-size: 20px;
+}
+
+th {
+    background-color: dodgerblue;
+    color: white;
+}
+
+td {
+    font-weight: 600;
+}
